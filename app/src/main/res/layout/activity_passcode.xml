@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:gravity="center"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    tools:context=".Passcode">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/logo"
+        android:background="@drawable/plassy_ps"
+        android:layout_marginBottom="100dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="15sp"
+        android:id="@+id/secCode"
+        android:hint="@string/entersecuritycode"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/AppThird"
+        android:textColor="@color/AppSecondary"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textColor="@color/AppMain"
+        android:text="@string/enter"
+        android:textAllCaps="false"
+        android:id="@+id/checkCode"
+        android:background="@drawable/button_1"
+        android:gravity="center"/>
+</LinearLayout>

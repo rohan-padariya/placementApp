@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg3top2"
+            android:gravity="center"
+            android:id="@+id/txt_stu_fac_enroll"
+            android:text="150470116039"
+            android:textColor="@color/AppMain"
+            android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_stu_fac_name"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/textbg3bot3"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:text="Vikas Padaliya"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"/>
+</LinearLayout>

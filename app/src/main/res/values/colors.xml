@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a1a1a</color>
+    <color name="colorPrimaryDark">#1a1a1a</color>
+    <color name="AppPrimaryDark">#303F9F</color>
+    <color name="AppMain">#ffffff</color>
+    <color name="AppSecondary">#363636</color>
+    <color name="AppThird">#6b6b6b</color>
+    <color name="colorAccent">#1a1a1a</color>
+    <color name="colorAccent2">#f4f4f4</color>
+    <color name="AppForth">#e7e7e7</color>
+
+</resources>

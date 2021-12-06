@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "915939605269",
+    "firebase_url": "https://placementappfinal.firebaseio.com",
+    "project_id": "placementappfinal",
+    "storage_bucket": "placementappfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915939605269:android:6c7acf77a514e759",
+        "android_client_info": {
+          "package_name": "com.vvpcollege.vvp.placementappfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915939605269-hpiqb3g228aik01b2obf5resn0dbdmqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vvpcollege.vvp.placementappfinal",
+            "certificate_hash": "a63acf1880c16c43fb8b6fd556fdd6ef51441b24"
+          }
+        },
+        {
+          "client_id": "915939605269-ttn8a7pjeqc6q57223tdkqcl5hhpd38p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDLnbVvmzWGQI-Q0uWrn8ct0taZFrI2l4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915939605269-ttn8a7pjeqc6q57223tdkqcl5hhpd38p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

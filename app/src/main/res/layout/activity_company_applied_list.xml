@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CompanyAppliedList">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/extra_small_bg"
+        android:gravity="start|center">
+        <TextView
+            android:id="@+id/fac_stu_com_name_enroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-4dp"
+            android:background="@drawable/textbg1"
+            android:gravity="center"
+            android:text="@string/appliedstudents"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:scrollbars="none"
+                android:text="@string/applied"
+                android:textColor="@color/AppMain"
+                android:background="@drawable/textbg3top"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbg3bot2"
+                android:padding="10dp">
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/studentwhoapplied"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal"
+                android:id="@+id/removebutton"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_2_3"
+                    android:padding="5dp">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:contentDescription="@string/downloadpdf"
+                        android:padding="10dp"
+                        android:id="@+id/downloadfilestudent"
+                        android:background="@drawable/button_1"
+                        android:src="@mipmap/ic_file_download_outline_white_24dp"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="5dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

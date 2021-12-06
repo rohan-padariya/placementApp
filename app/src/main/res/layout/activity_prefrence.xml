@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:background="@drawable/extra_small_bg"
+        android:gravity="start|center">
+
+        <TextView
+            android:id="@+id/fac_stu_com_name_enroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-4dp"
+            android:background="@drawable/textbg1"
+            android:gravity="center"
+            android:text="@string/preferences"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:layout_gravity="center"
+            android:paddingRight="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textbg3top"
+                    android:gravity="center"
+                    android:text="1st Prefered Location"
+                    android:textColor="@color/AppMain"
+                    android:textSize="12sp" />
+                <Spinner
+                    android:id="@+id/spn_city1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/textbg3bot"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textbg3top"
+                    android:gravity="center"
+                    android:text="2nd Prefered Location"
+                    android:textColor="@color/AppMain"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spn_city2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/textbg3bot"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textbg3top"
+                    android:gravity="center"
+                    android:text="1st Prefered Domain"
+                    android:textColor="@color/AppMain"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spn_domain1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/textbg3bot"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textbg3top"
+                    android:gravity="center"
+                    android:text="2nd Prefered Domain"
+                    android:textColor="@color/AppMain"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spn_domain2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/textbg3bot"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textbg3top"
+                    android:gravity="center"
+                    android:text="3rd Prefered Domain"
+                    android:textColor="@color/AppMain"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spn_domain3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/textbg3bot"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_1"
+                android:gravity="center"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/AppMain"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

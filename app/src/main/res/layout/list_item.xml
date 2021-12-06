@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/date"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="top|center_horizontal"
+
+            android:textSize="12sp"
+            android:textColor="@color/AppMain"
+            android:background="@drawable/list_main_header" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/list_color"
+        android:paddingTop="30dp"
+        android:background="@drawable/textbox1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_content1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_company"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="match_parent"
+                android:background="@color/AppThird"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_location"
+                android:textColor="@color/AppThird"
+
+                android:textSize="12sp" />
+        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_domain"
+                android:background="@drawable/list_bottom"
+
+                android:textColor="@color/AppMain"
+                android:textSize="12sp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"/>
+    </LinearLayout>
+
+    </FrameLayout>
+    </LinearLayout>
